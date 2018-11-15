@@ -1,0 +1,16 @@
+public class Unit4Odd {
+	public static void main(String[] args) {
+	
+		int odd = 1;
+		int sum = 0;
+		
+		while (odd < 100) {
+			
+			sum += odd;
+			odd += 2;
+		}
+		
+		System.out.printf("The sum of odd numbers from 1 to 100 is: %d", sum);
+			
+	}
+}
